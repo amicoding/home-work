@@ -86,7 +86,22 @@
 /* css for work end */
 
 
-
+/*  about section start*/
+.about{
+  position: relative;
+  top: 400px;
+  text-align: center;
+  align-items: center;
+}
+.about p{
+  font-size: 10px;
+  
+}
+.about a{
+  left: 380px;
+  top: 600px;
+}
+/*  about section end*/
 
 
 
