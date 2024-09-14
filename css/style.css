@@ -10,14 +10,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 70px;
-  width: 1000px;
+  
 }
 .htext{
   align-content: center;
   margin-left: 30px;
+  width: 100px;
 }
 .htext h1{
-  background-image: linear-gradient(10deg, green, black);
+  background-image: linear-gradient(to right, green, black);
 }
 .hmenu img{
   position: absolute;
@@ -27,7 +28,7 @@
 }
 
 .hero-img img{
-  width: 1000px;
+  width: 100%;
   height: 500px;
 }
 
@@ -42,13 +43,14 @@
   text-align: center;
   position: relative;
   top: 200px;
-  left: 10%;
+  left: 22%;
   align-content: center;
   width: 360px;
 }
 .work img{
-  width: 350px;
+  
   height: 250px;
+  
 }
 .work div{
   width: 400px;
@@ -89,12 +91,14 @@
 /*  about section start*/
 .about{
   position: relative;
-  top: 400px;
+  top: 450px;
   text-align: center;
   align-items: center;
+  width: 300px;
+  left: 35%;
 }
 .about p{
-  font-size: 10px;
+  font-size: 8px;
   
 }
 .about a{
@@ -103,9 +107,122 @@
 }
 /*  about section end*/
 
+/* power section starts */
 
+.power{
+  display: grid;
+  grid-template-columns: 3fr 1fr ;
+  position: relative;
+  top: 600px;
+  background-image: linear-gradient(to right, green, blue);
+  color: white;
+  text-align: center;
+  
+}
 
+.ptext{
+  position: relative;
+  width: 350px;
+  text-align: center;
+  align-content: center;
+  left: 200px;
+}
 
+.ptext p{
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.pblock{
+  display: inline-block;
+  
+}
+.ptext img{
+  
+}
+.ptext h4 {
+  font-size: 30px;
+}
+.pimg img{
+  margin-right: 100px;
+}
+/* power section end */
+
+/* coin section start */
+
+.coin{
+  position: relative;
+  top: 680px;
+  text-align: center;
+  width: 700px;
+  height: 300px;
+  left: 25%;
+}
+.coin1 a{
+  
+}
+/* coin section end */
+
+/* testimonial section start */
+.testimonial{
+  position: relative;
+  top: 1280px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
+  
+}
+.test1{
+  margin-left: 200px;
+  margin-top: 50px;
+  
+  width: 200px;
+  height: 250px;
+  left: 150px;
+  box-shadow: 5px 4px 30px gray;
+}
+.test1 h3{
+  font-size: 20px;
+  text-align: center;
+  margin: 8px;
+}
+.test1 p{
+  font-size: 20px;
+  text-align: center;
+  
+}
+.test2{
+  margin-left: 200px;
+  
+  width: 200px;
+  height: 250px;
+  left: 150px;
+  box-shadow: 5px 4px 30px gray;
+}
+
+.test2 h3{
+  font-size: 20px;
+  text-align: center;
+  margin: 8px;
+}
+.test2 p{
+  font-size: 20px;
+  text-align: center;
+  
+}
+.testb1{
+  position: absolute;
+  width: 400px;
+  right: 380px;
+  top: 90px;
+}
+.testb2{
+  position: absolute;
+  width: 400px;
+  right: 380px;
+  top: 400px;
+}
+/* testimonial section end */
 
 
 
