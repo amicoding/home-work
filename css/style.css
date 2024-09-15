@@ -224,7 +224,85 @@
 }
 /* testimonial section end */
 
+/* FOOTER SECTION START */
 
+.footer{
+  position: relative;
+  top: 1650px;
+  background: black;
+  text-align: center;
+  height: 400px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box1{
+  margin-top: 50px;
+  line-height: 2.5rem;
+}
+.box1 h1{
+  margin: 10px;
+}
+.box1 p{
+  display: inline-block;
+}
+
+.box2{
+  margin-top: 20px;
+  line-height: 2.2rem;
+}
+.box2 h1{
+  margin: 20px;
+}
+.box3{
+  margin-top: 20px;
+}
+.box3 h1{
+  margin: 20px;
+  line-height: 2rem;
+}
+.box3 a{
+  color: white;
+  text-decoration: none;
+  line-height: 2rem;
+}
+.box4{
+  margin-top: 20px;
+  line-height: 2rem;
+}
+.box4 h1{
+  margin: 20px;
+}
+.box4 input{
+  background: black;
+  color: white;
+  font-weight: bold;
+  right: 75px;
+  text-align: center;
+  width: 150px;
+  position: absolute;
+  height: 40px;
+  display: block;
+  border: 1px solid white;
+}
+.box4 a{
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  background: green;
+  position: absolute;
+  top: 160px;
+  right: 75px;
+}
+
+
+.dfoot{
+  position: absolute;
+  text-align: center;
+  bottom: 15px;
+  left: 36%;
+}
+/* FOOTER SECTION END */
 
 
 
